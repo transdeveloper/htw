@@ -1,0 +1,6 @@
+node_modules/
+package-lock.json
+php/screenshots/*.png
+php/vendor
+php/composer.lock
+.DS_Store

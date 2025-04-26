@@ -1,0 +1,17 @@
+{
+    "name": "sysadmin/screenshots",
+    "autoload": {
+        "psr-4": {
+            "Sysadmin\\Screenshots\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sophia Eraslan",
+            "email": "sophia.eraslan@finnacloud.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^3.7"
+    }
+}

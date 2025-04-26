@@ -1,0 +1,16 @@
+{
+  "name": "seleniumscanner",
+  "version": "1.0.0",
+  "description": "MQTT listener that takes screenshots of websites",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx puppeteer browsers install chrome"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "puppeteer": "^21.7.0",
+    "fs-extra": "^11.2.0",
+    "moment": "^2.30.1"
+  }
+} 
